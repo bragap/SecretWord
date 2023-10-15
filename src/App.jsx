@@ -122,7 +122,7 @@ function App() {
    }
    
 
-  },[guessedLetters, letters, startGame])
+  },[guessedLetters, letters, startGame, gameStage])
 
    //restarts the game
    const retry = () => {
